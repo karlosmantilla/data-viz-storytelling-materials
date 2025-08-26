@@ -1,0 +1,92 @@
+# --- Operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+.mypy_cache/
+.pytype/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+Pipfile.lock
+poetry.lock
+*.egg-info/
+dist/
+build/
+
+# --- R
+.Rhistory
+.RData
+.Ruserdata
+.Rprofile
+.Rproj.user/
+*.Rproj
+*_cache/
+.cache/
+.Rcheck/
+
+# --- Jupyter / Quarto
+*.nbconvert.ipynb
+*.ipynb_convert/
+# Quarto/knitr caches created by render
+*_files/
+*_cache/
+
+# --- IDEs / Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Power BI
+# Track .pbix via Git LFS (see .gitattributes); ignore project-mode files unless used
+*.pbip
+.pbip/
+
+# --- GIS / Geo (temporary or sidecar files)
+*.aux.xml
+*.qgs~
+*.qgd
+*.gfs
+*.dbf~
+*.lock
+*.qml~
+GIS/tmp/
+GIS/working/
+
+# --- Data staging (do not version local scratch data)
+Data/tmp/
+Data/working/
+**/tmp/
+**/temp/
+*.tmp
+
+# --- Logs & build artifacts
+*.log
+logs/
+out/
+output/
+.temp/
+.tmp/
+.cache/
+coverage/
+.coverage*
+coverage.xml
+
+# --- Archives (avoid committing large bundles; releases should host zips)
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
