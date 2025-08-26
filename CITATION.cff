@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Data Visualization & Storytelling · Teaching Kit"
+message: "If you use this kit, please cite it as:"
+type: software
+authors:
+  - family-names: Mantilla-Duarte
+    given-names: Carlos A.
+version: "1.0.0"
+date-released: "2025-08-26"
+repository-code: "https://github.com/OWNER/REPO"
+license: "MIT"
+preferred-citation:
+  type: article
+  title: "Teaching data visualization and storytelling with portable, reproducible materials"
+  authors:
+    - family-names: Mantilla
+      given-names: Carlos A.
+  year: 2025
