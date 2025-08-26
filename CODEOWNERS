@@ -1,0 +1,6 @@
+# Default owners
+*               @owner-1 @owner-2
+/PBIX/          @owner-1
+/R/             @owner-2
+/Python/        @owner-2
+/Themes/        @owner-1
