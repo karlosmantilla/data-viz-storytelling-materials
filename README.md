@@ -83,6 +83,9 @@ Code: MIT (`Docs/LICENSE-CODE.txt`).
 Content (docs, images, templates): CC BY-NC 4.0 (`Docs/LICENSE-CONTENT.txt`).  
 Cite data sources in `Docs/CREDITS.md` and in final visuals.
 
+## Bibliography
+The complete list of references and recommended readings is available in [bibliography.md](./bibliography.md).
+
 ## Contributing & Support
 Open a **Class question** in Issues for specific doubts.  
 Share results in Discussions → **Show and tell**.  
