@@ -11,7 +11,7 @@ Encourage consistent use of visual patterns, accessible palettes, and narrative 
 
 ## Audience & Scope
 This course is designed for undergraduate students from any area of study who have a basic knowledge of statistics and wish to enhance their ability to communicate data effectively.  
-6 hours total (two sessions of 3 hours).  
+6 hours total.  
 Hands-on practice with portable datasets and templates.  
 
 
