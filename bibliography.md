@@ -1,4 +1,4 @@
-# 📚 Bibliografía del curso
+# 📚 Bibliography
 
 ### Adam Aspin – *Data Visualization with Microsoft Power BI: Create Effective Data Visualization, Dashboards, and BI Reports*  
 Aspin, A. (2022). *Data Visualization with Microsoft Power BI: Create Effective Data Visualization, Dashboards, and BI Reports*. O’Reilly Media. ISBN: 9781098152789 (print), 9781098152772 (eBook). 872 pp.  
