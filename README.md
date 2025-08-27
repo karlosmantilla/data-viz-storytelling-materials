@@ -23,22 +23,21 @@ Alternative: clone the repo with Git LFS enabled for large binaries.
 ## Requirements
 
 - **Power BI Desktop** (Windows, latest version)  
-  🔗 [Download](https://www.microsoft.com/en-us/download/details.aspx?id=58494)  
+  🔗 <a href="https://www.microsoft.com/en-us/download/details.aspx?id=58494" target="_blank">Download</a>  
 
 - **R** (latest release) with `arrow` and `readr`  
-  🔗 [Download R](https://cloud.r-project.org/)  
-  🔗 [Download RStudio](https://posit.co/download/rstudio-desktop/)  
+  🔗 <a href="https://cloud.r-project.org/" target="_blank">Download R</a>  
+  🔗 <a href="https://posit.co/download/rstudio-desktop/" target="_blank">Download RStudio</a>  
 
 - **Python 3.10+** with `pandas` and `pyarrow` or `fastparquet`  
-  🔗 [Download Python](https://www.python.org/downloads/)  
-  🔗 You may also use [Anaconda with Jupyter](https://www.anaconda.com/download), or another compatible environment  
+  🔗 <a href="https://www.python.org/downloads/" target="_blank">Download Python</a>  
+  🔗 You may also use <a href="https://www.anaconda.com/download" target="_blank">Anaconda with Jupyter</a>, or another compatible environment  
 
 - **QGIS** (for optional GIS exercises)  
-  🔗 [Download QGIS](https://qgis.org/download/)  
+  🔗 <a href="https://qgis.org/download/" target="_blank">Download QGIS</a>  
 
 - **Git LFS** (for `*.pbix`, `*.feather`, `*.parquet`, `*.qgz`)  
-  🔗 [Git LFS setup guide](https://git-lfs.com/)  
-
+  🔗 <a href="https://git-lfs.com/" target="_blank">Git LFS setup guide</a>  
 
 ## Quick Start
 
