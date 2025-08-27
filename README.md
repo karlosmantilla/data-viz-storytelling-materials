@@ -21,10 +21,24 @@ Path: Releases → “DVST_Kit_vX.Y.zip”.
 Alternative: clone the repo with Git LFS enabled for large binaries.
 
 ## Requirements
-Power BI Desktop (Windows, recent version).  
-R (release) with `arrow` and `readr`.  
-Python 3.10+ with `pandas` and `pyarrow` or `fastparquet`.  
-Git LFS for `*.pbix`, `*.feather`, `*.parquet`, `*.qgz`.
+
+- **Power BI Desktop** (Windows, latest version)  
+  🔗 [Download](https://www.microsoft.com/en-us/download/details.aspx?id=58494)  
+
+- **R** (latest release) with `arrow` and `readr`  
+  🔗 [Download R](https://cloud.r-project.org/)  
+  🔗 [Download RStudio](https://posit.co/download/rstudio-desktop/)  
+
+- **Python 3.10+** with `pandas` and `pyarrow` or `fastparquet`  
+  🔗 [Download Python](https://www.python.org/downloads/)  
+  🔗 You may also use [Anaconda with Jupyter](https://www.anaconda.com/download), or another compatible environment  
+
+- **QGIS** (for optional GIS exercises)  
+  🔗 [Download QGIS](https://qgis.org/download/)  
+
+- **Git LFS** (for `*.pbix`, `*.feather`, `*.parquet`, `*.qgz`)  
+  🔗 [Git LFS setup guide](https://git-lfs.com/)  
+
 
 ## Quick Start
 
