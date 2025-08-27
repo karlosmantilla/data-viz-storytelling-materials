@@ -5,14 +5,15 @@ Focused on visual design, narrative clarity, and accessibility.
 Optimized for short sessions with guided practice.
 
 ## Repository Goal
-Provide a reproducible starter kit to teach data visualization and storytelling.  
-Remove data-loading friction so class time focuses on message and design choices.  
-Standardize themes, palettes, and narrative patterns across tools.
+Help students build confidence in turning data into clear and compelling stories.  
+Provide ready-to-use resources that minimize technical setup so class time can focus on design choices and communication.  
+Encourage consistent use of visual patterns, accessible palettes, and narrative techniques across different tools.  
 
 ## Audience & Scope
-Undergraduate students with basic statistics.  
+This course is designed for undergraduate students from any area of study who have a basic knowledge of statistics and wish to enhance their ability to communicate data effectively.  
 6 hours total (two sessions of 3 hours).  
-Hands-on practice with portable datasets and templates.
+Hands-on practice with portable datasets and templates.  
+
 
 ## How to Get the Materials
 Preferred: download the ZIP from the latest release.  
