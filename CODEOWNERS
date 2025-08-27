@@ -1,6 +1,17 @@
-# Default owners
-*               @owner-1 @owner-2
-/PBIX/          @owner-1
-/R/             @owner-2
-/Python/        @owner-2
-/Themes/        @owner-1
+# Default owner for all files in the repository
+*   @karlosmantilla
+
+# -------------------------------------------------------------------
+# Notes for future collaboration:
+# - To add another default owner, list multiple users after "*"
+#   Example: *   @karlosmantilla @co-teacher
+#
+# - To assign ownership by folder, add lines like:
+#   /PBIX/       @karlosmantilla
+#   /R/          @co-teacher
+#   /Python/     @co-teacher
+#   /Themes/     @karlosmantilla
+#
+# - Owners listed here will automatically be requested
+#   to review any Pull Request that touches those files.
+# -------------------------------------------------------------------
