@@ -1,0 +1,94 @@
+{
+  "chart": {
+    "title": "Consumption-based CO₂ emissions per capita vs. GDP per capita",
+    "subtitle": "[Consumption-based emissions](#dod:consumptionbasedemissions) are measured in tonnes per person. They are territorial emissions minus emissions embedded in exports, plus emissions embedded in imports. GDP per capita is adjusted for inflation and for differences in living costs between countries.",
+    "note": "GDP per capita is expressed in [international-$](#dod:int_dollar_abbreviation) at 2021 prices.",
+    "citation": "Global Carbon Budget (2024); Population based on various sources (2024); Eurostat, OECD, and World Bank (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/consumption-co2-per-capita-vs-gdppc?v=1&csvType=full&useColumnShortNames=false",
+    "selection": []
+  },
+  "columns": {
+    "Per capita consumption-based CO₂ emissions": {
+      "titleShort": "Consumption-based emissions per capita",
+      "titleLong": "Consumption-based emissions per capita",
+      "descriptionShort": "Annual consumption-based emissions of carbon dioxide (CO₂), measured in tonnes per person.\n",
+      "descriptionKey": [
+        "Consumption-based emissions attribute the emissions generated in the production of goods and services according to where they were _consumed_, rather than where they were _produced_.",
+        "The data is calculated by adjusting 'production-based' emissions (emissions produced domestically) for trade: Consumption-based emissions equals production-based emissions, _minus_ emissions embedded in exports, _plus_ emissions embedded in imports.",
+        "If a country's consumption-based emissions are higher than its production emissions it is a net importer of carbon dioxide. If its consumption-based emissions are lower, then it is a net exporter.",
+        "Consumption-based emissions are not available for all countries because not all countries have sufficient, high-quality trade data. But those without complete data are a small fraction (3%) of the global total.",
+        "This data measures carbon dioxide (CO₂) emissions from fossil fuels and industry and does not include emissions from land use change, deforestation, soils, or vegetation.",
+        "CO₂ emissions per capita are calculated by dividing emissions by population. They represent the average emissions per person in a country or region. To learn more about how different metrics capture the distribution of CO₂ emissions, read our article: [Per capita, national, historical: how do countries compare on CO2 metrics?](https://ourworldindata.org/co2-emissions-metrics)",
+        "Emissions from international aviation and shipping are not included in the data for any individual country or region. They are only counted in the global total."
+      ],
+      "descriptionProcessing": "- Global emissions are converted from tonnes of carbon to tonnes of carbon dioxide (CO₂) using a factor of 3.664. This is the conversion factor [recommended by the Global Carbon Project](https://globalcarbonbudgetdata.org/downloads/jGJH0-data/Global+Carbon+Budget+v2024+Dataset+Descriptions.pdf). It reflects that one tonne of carbon, when fully oxidized, forms 3.664 tonnes of CO₂, based on the relative molecular weights of carbon and oxygen in CO₂.\n- Emissions from the 1991 Kuwaiti oil fires are included in Kuwait's emissions for that year.\n- To calculate CO₂ emissions per capita, we divide the original data by a country's estimated population. These estimates come from our population dataset based on [multiple sources](https://ourworldindata.org/population-sources).\n",
+      "shortUnit": "t/person",
+      "unit": "tonnes per person",
+      "timespan": "1990-2023",
+      "type": "Numeric",
+      "owidVariableId": 998354,
+      "shortName": "consumption_emissions_per_capita",
+      "lastUpdated": "2024-11-21",
+      "nextUpdate": "2025-11-21",
+      "citationShort": "Global Carbon Budget (2024); Population based on various sources (2024) – with major processing by Our World in Data",
+      "citationLong": "Global Carbon Budget (2024); Population based on various sources (2024) – with major processing by Our World in Data. “Consumption-based emissions per capita – Global Carbon Project” [dataset]. Global Carbon Project, “Global Carbon Budget”; Various sources, “Population” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/998354.metadata.json"
+    },
+    "GDP per capita, PPP (constant 2021 international $)": {
+      "titleShort": "GDP per capita",
+      "titleLong": "GDP per capita - World Bank – In constant international-$",
+      "descriptionShort": "Average economic output per person in a country or region per year. This data is adjusted for inflation and differences in living costs between countries.",
+      "descriptionKey": [
+        "GDP per capita is a comprehensive measure of people's average income. It helps compare income levels across countries and track how they change over time. It is especially useful for understanding trends in economic growth and living standards.",
+        "GDP per capita is calculated as the value of all final goods and services produced each year in a country (the [gross domestic product](#dod:gdp)), divided by the population. It represents the average economic output per person.",
+        "This indicator shows the large inequality between people in different countries. In the poorest countries, average incomes are below $1,000 per year; in rich countries, they are more than 50 times higher.",
+        "This data is expressed in constant international dollars to adjust for inflation and differences in living costs between countries. Read more in our article, [What are international dollars?](https://ourworldindata.org/international-dollars)",
+        "This data comes from the World Bank and starts in 1990. For estimates going back several centuries, explore our chart of GDP per capita from the [Maddison Project Database](https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database)."
+      ],
+      "shortUnit": "$",
+      "unit": "international-$ in 2021 prices",
+      "timespan": "1990-2023",
+      "type": "Numeric",
+      "owidVariableId": 1008370,
+      "shortName": "ny_gdp_pcap_pp_kd",
+      "lastUpdated": "2025-01-24",
+      "nextUpdate": "2026-01-24",
+      "citationShort": "Eurostat, OECD, and World Bank (2025) – with minor processing by Our World in Data",
+      "citationLong": "Eurostat, OECD, and World Bank (2025) – with minor processing by Our World in Data. “GDP per capita – World Bank – In constant international-$” [dataset]. Eurostat, OECD, and World Bank, “World Development Indicators” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1008370.metadata.json"
+    },
+    "Population (historical)": {
+      "titleShort": "Population (historical)",
+      "titleLong": "Population (historical)",
+      "descriptionShort": "Population by country, available from 10,000 BCE to 2023, based on data and estimates from different sources.",
+      "descriptionProcessing": "### Combination of different sources\nThe population data is constructed by combining data from multiple sources:\n\n- 10,000 BCE - 1799: Historical estimates by HYDE (v3.3).\n\n- 1800 - 1949: Historical estimates by Gapminder (v7).\n\n- 1950-2023: Population records by the UN World Population Prospects (2024 revision).\n\n### Regional aggregates\n\n**Continents and other region aggregates**:\n\nFor most of the years, we've estimated regional aggregates by summing the population of countries in each region. We've relied on [our continents](https://ourworldindata.org/world-region-map-definitions#our-world-in-data) and [World Bank income group definitions](https://ourworldindata.org/grapher/world-bank-income-groups). The only exception is before 1800, where we've used HYDE's estimates on continents (but not income groups).\n\n**World**:\n- Before 1800: We've used HYDE's estimates.\n- 1800-1950: We've estimated the World population by summing all available countries in the dataset, ensuring that we do not double-count any country.\n- After 1950: We've relied on UN WPP's estimates.",
+      "shortUnit": "",
+      "unit": "people",
+      "timespan": "-10000-2023",
+      "type": "Integer",
+      "owidVariableId": 953903,
+      "shortName": "population_historical",
+      "lastUpdated": "2024-07-15",
+      "nextUpdate": "2026-07-15",
+      "citationShort": "HYDE (2023); Gapminder (2022); UN WPP (2024) – with major processing by Our World in Data",
+      "citationLong": "HYDE (2023); Gapminder (2022); UN WPP (2024) – with major processing by Our World in Data. “Population (historical)” [dataset]. PBL Netherlands Environmental Assessment Agency, “History Database of the Global Environment 3.3”; Gapminder, “Population v7”; United Nations, “World Population Prospects”; Gapminder, “Systema Globalis” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/953903.metadata.json"
+    },
+    "World regions according to OWID": {
+      "titleShort": "World regions according to OWID",
+      "titleLong": "World regions according to OWID",
+      "descriptionShort": "Regions defined by Our World in Data, which are used in OWID charts and maps.",
+      "unit": "",
+      "timespan": "2023-2023",
+      "type": "Continent",
+      "owidVariableId": 900801,
+      "shortName": "owid_region",
+      "lastUpdated": "2023-01-01",
+      "citationShort": "Our World in Data – processed by Our World in Data",
+      "citationLong": "Our World in Data – processed by Our World in Data. “World regions according to OWID” [dataset]. Our World in Data, “Regions” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/900801.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-08-28",
+  "activeFilters": {}
+}
