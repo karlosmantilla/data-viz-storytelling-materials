@@ -5,14 +5,15 @@ Focused on visual design, narrative clarity, and accessibility.
 Optimized for short sessions with guided practice.
 
 ## Repository Goal
-Provide a reproducible starter kit to teach data visualization and storytelling.  
-Remove data-loading friction so class time focuses on message and design choices.  
-Standardize themes, palettes, and narrative patterns across tools.
+Help students build confidence in turning data into clear and compelling stories.  
+Provide ready-to-use resources that minimize technical setup so class time can focus on design choices and communication.  
+Encourage consistent use of visual patterns, accessible palettes, and narrative techniques across different tools.  
 
 ## Audience & Scope
-Undergraduate students with basic statistics.  
-6 hours total (two sessions of 3 hours).  
-Hands-on practice with portable datasets and templates.
+This course is designed for undergraduate students from any area of study who have a basic knowledge of statistics and wish to enhance their ability to communicate data effectively.  
+6 hours total.  
+Hands-on practice with portable datasets and templates.  
+
 
 ## How to Get the Materials
 Preferred: download the ZIP from the latest release.  
@@ -20,10 +21,23 @@ Path: Releases → “DVST_Kit_vX.Y.zip”.
 Alternative: clone the repo with Git LFS enabled for large binaries.
 
 ## Requirements
-Power BI Desktop (Windows, recent version).  
-R (release) with `arrow` and `readr`.  
-Python 3.10+ with `pandas` and `pyarrow` or `fastparquet`.  
-Git LFS for `*.pbix`, `*.feather`, `*.parquet`, `*.qgz`.
+
+- **Power BI Desktop** (Windows, latest version)  
+  🔗 <a href="https://www.microsoft.com/en-us/download/details.aspx?id=58494" target="_blank">Download</a>  
+
+- **R** (latest release) with `arrow` and `readr`  
+  🔗 <a href="https://cloud.r-project.org/" target="_blank">Download R</a>  
+  🔗 <a href="https://posit.co/download/rstudio-desktop/" target="_blank">Download RStudio</a>  
+
+- **Python 3.10+** with `pandas` and `pyarrow` or `fastparquet`  
+  🔗 <a href="https://www.python.org/downloads/" target="_blank">Download Python</a>  
+  🔗 You may also use <a href="https://www.anaconda.com/download" target="_blank">Anaconda with Jupyter</a>, or another compatible environment  
+
+- **QGIS** (for optional GIS exercises)  
+  🔗 <a href="https://qgis.org/download/" target="_blank">Download QGIS</a>  
+
+- **Git LFS** (for `*.pbix`, `*.feather`, `*.parquet`, `*.qgz`)  
+  🔗 <a href="https://git-lfs.com/" target="_blank">Git LFS setup guide</a>  
 
 ## Quick Start
 
@@ -82,6 +96,9 @@ Version only lightweight student outputs (scripts/notebooks).
 Code: MIT (`Docs/LICENSE-CODE.txt`).  
 Content (docs, images, templates): CC BY-NC 4.0 (`Docs/LICENSE-CONTENT.txt`).  
 Cite data sources in `Docs/CREDITS.md` and in final visuals.
+
+## Bibliography
+The complete list of references and recommended readings is available in [bibliography.md](./bibliography.md).
 
 ## Contributing & Support
 Open a **Class question** in Issues for specific doubts.  

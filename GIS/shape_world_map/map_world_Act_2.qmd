@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.38.3-Grenoble">
+<qgis version="3.44.0-Solothurn">
   <identifier></identifier>
   <parentidentifier></parentidentifier>
   <language></language>
