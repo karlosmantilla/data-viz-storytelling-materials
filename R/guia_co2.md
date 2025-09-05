@@ -364,8 +364,6 @@ This scatterplot allows us to highlight **contrasts**:
 
 ---
 
-# 📊 CO₂ Emissions and GDP per Capita – Data Visualization Guide  
-
 ## 8. Regional Time Series – Stacked Area Chart  
 
 ### 8.1 Purpose of this visualization  
