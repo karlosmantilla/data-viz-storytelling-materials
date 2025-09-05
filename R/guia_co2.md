@@ -432,8 +432,6 @@ If the objective is to compare regions individually, a better choice could be:
 
 ---
 
-# 📊 CO₂ Emissions and GDP per Capita – Data Visualization Guide  
-
 ## 9. Global and Regional Maps  
 
 ### 9.1 Purpose of this visualization  
