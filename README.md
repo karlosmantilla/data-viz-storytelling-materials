@@ -59,10 +59,10 @@ Try patterns in `02_visual_patterns.ipynb` (bars, lines, dotplots, small multipl
 ## Repository Structure
 `PBIX/` ready files and templates with navigation and narrative tooltips.  
 `Data/` portable formats (RData, RDS, Parquet, Feather, CSV) and `variable_dictionary.csv`.  
-`R/` scripts for loading, visual patterns, and storytelling tips (`theme_uis.R`, `palette_accessible.R`).  
-`Python/` notebooks and utils (`palette_accessible.py`, `uis.mplstyle`).  
+`R/` scripts for loading, visual patterns, and storytelling tips (`palette_accessible.R`).  
+`Python/` notebooks and utils (`palette_accessible.py`).  
 `Themes/` JSON themes for Power BI and shared styles.  
-`GIS/` `countries.geojson`, `colombia_departments.geojson`, and a base QGIS project.  
+`GIS/` `map_world.geojson`, `shape_world_map.shp`, and a base QGIS project.  
 `Docs/` quick guides, class checklist, licenses, credits.  
 `.github/` smoke-test workflow and issue/discussion templates.
 
