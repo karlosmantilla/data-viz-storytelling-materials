@@ -1,4 +1,6 @@
-# Introduction
+# Visual Storytelling with Data: Comparing R and Python
+
+## Introduction
 
 Data visualization is more than producing charts—it is a way of thinking with images.  
 When used effectively, visuals can highlight patterns, reveal hidden structures, and guide audiences toward insights that numbers alone cannot convey. In this sense, visualization is not just technical; it is a form of **storytelling with data**.
@@ -9,7 +11,7 @@ This guide is not about deciding which language is “better.” Instead, it is 
 
 ---
 
-# Philosophy of Visualization in R vs Python
+## Philosophy of Visualization in R vs Python
 
 The way a tool is designed shapes the kind of stories we can tell with it.  
 In the world of data visualization, R and Python embody two different philosophies:
@@ -61,12 +63,12 @@ Both approaches can serve storytelling—one through structured grammar, the oth
 
 ---
 
-# Strengths of R for Storytelling
+## Strengths of R for Storytelling
 
 R has long been recognized as a language built for statistical analysis and visualization.  
 Its strengths in data storytelling come from both its philosophy and its ecosystem of packages.
 
-## 1. The Grammar of Graphics
+### 1. The Grammar of Graphics
 At the heart of R’s visualization is **ggplot2**, which is based on Wilkinson’s *Grammar of Graphics*.  
 This grammar allows users to build visuals as layered structures:  
 - **Data**: the dataset being used.  
@@ -76,7 +78,7 @@ This grammar allows users to build visuals as layered structures:
 
 This modularity encourages **clarity, reproducibility, and coherence** across plots, making it easier to construct a narrative flow.
 
-## 2. A Rich Ecosystem for Storytelling
+### 2. A Rich Ecosystem for Storytelling
 R’s visualization ecosystem extends storytelling capabilities:
 - **gganimate**: adds motion to emphasize change over time.  
 - **patchwork / cowplot**: combine multiple plots into cohesive stories.  
@@ -85,7 +87,7 @@ R’s visualization ecosystem extends storytelling capabilities:
 
 Each package contributes to telling stories that go beyond static charts.
 
-## 3. Minimal Example in R
+### 3. Minimal Example in R
 A simple story can be created by layering annotations:
 
 ```r
@@ -107,12 +109,12 @@ as cars get heavier, their fuel efficiency drops.
 
 ---
 
-# Strengths of Python for Storytelling
+## Strengths of Python for Storytelling
 
 Python is often described as a “general-purpose” language, and its visualization ecosystem reflects that versatility.  
 When it comes to data storytelling, Python’s strengths lie in its breadth of tools, interactivity, and integration with broader data workflows.
 
-## 1. Versatility and Ecosystem
+### 1. Versatility and Ecosystem
 At the core is **matplotlib**, the low-level library that provides full control of plots.  
 On top of it, libraries such as:  
 - **seaborn**: statistical plots with better defaults.  
@@ -121,7 +123,7 @@ On top of it, libraries such as:
 
 This variety allows users to select the right tool depending on whether the goal is *exploration, explanation, or interactive storytelling*.
 
-## 2. Interactivity and Integration
+### 2. Interactivity and Integration
 Python excels at combining visualization with other tasks:  
 - Integration with **machine learning** workflows (e.g., scikit-learn + matplotlib).  
 - Deployment into **web apps and dashboards** (Plotly Dash, Streamlit).  
@@ -129,7 +131,7 @@ Python excels at combining visualization with other tasks:
 
 This interactivity makes Python especially strong for audiences who want to explore data themselves.
 
-## 3. Minimal Example in Python
+### 3. Minimal Example in Python
 A scatterplot with a regression line and annotation:
 
 ```python
@@ -161,24 +163,24 @@ it can produce visuals that are both *analytical* and *narrative*.
 
 ---
 
-# When R Excels vs When Python Excels
+## When R Excels vs When Python Excels
 
 Both R and Python are powerful for data storytelling, but their strengths shine in different contexts.  
 Choosing the right tool often depends on the **audience, purpose, and environment**.
 
-## When R Excels
+### When R Excels
 - **Academic and research reporting**: seamless integration with R Markdown and Quarto to produce reproducible reports.  
 - **Statistical storytelling**: built-in alignment with advanced statistical models and visual summaries.  
 - **Consistency across plots**: `ggplot2`’s grammar ensures a cohesive visual language across an entire project.  
 - **Teaching and pedagogy**: its declarative syntax helps beginners focus on *what* story to tell rather than *how* to code it.
 
-## When Python Excels
+### When Python Excels
 - **Interactive dashboards and applications**: tools like Plotly Dash and Streamlit bring visuals directly to end-users.  
 - **Integration with machine learning and AI**: visualizations can be embedded into predictive workflows.  
 - **Cross-domain projects**: Python can combine visualization with natural language processing, web scraping, or APIs.  
 - **Industry and production environments**: strong adoption in software engineering and data pipelines.
 
-## Summary Comparison
+### Summary Comparison
 
 | Context                          | R Excels                         | Python Excels                    |
 |----------------------------------|----------------------------------|----------------------------------|
@@ -195,12 +197,12 @@ The most effective communicator knows when to switch between them—or even use 
 
 ---
 
-# Strategies to Enrich Python Narratives
+## Strategies to Enrich Python Narratives
 
 While Python’s visualization tools are powerful, they do not always provide the same narrative clarity that R offers with `ggplot2`.  
 Fortunately, several strategies can help bring Python visuals closer to the richness of visual storytelling.
 
-## 1. Adopt Declarative Tools
+### 1. Adopt Declarative Tools
 - **plotnine**: brings the Grammar of Graphics to Python, almost identical to `ggplot2` syntax.  
 - **altair**: a declarative library based on Vega-Lite, excellent for fast and clean storytelling visuals.  
 
@@ -227,17 +229,17 @@ from plotnine.data import mtcars
 
 This syntax mirrors R’s `ggplot2`, lowering the cognitive barrier when switching between languages.
 
-## 2. Leverage Interactivity
+### 2. Leverage Interactivity
 
 Tools like **Plotly** and **Bokeh** allow users to zoom, hover, and explore the data.
 This transforms a static story into an *explorable narrative* for audiences who want to engage more deeply.
 
-## 3. Strengthen Annotation and Styling
+### 3. Strengthen Annotation and Styling
 
 Narratives depend on context. Adding **annotations, highlights, and consistent color palettes** using matplotlib can make the story explicit rather than implicit.
 For example: arrows pointing to anomalies, shaded regions to mark important periods, or consistent typography across multiple plots.
 
-## 4. Build Consistent Styles
+### 4. Build Consistent Styles
 
 Storytelling often requires visual cohesion. Define global styles using `matplotlib.rcParams` or custom functions so that multiple plots share the same look and feel.
 This echoes the coherence R achieves naturally with the Grammar of Graphics.
@@ -248,24 +250,24 @@ By combining declarative libraries, interactivity, careful annotation, and consi
 
 ---
 
-# Pedagogical Notes
+## Pedagogical Notes
 
 Teaching visualization is not only about teaching code—it is about helping learners move from *exploring data* to *explaining stories*.  
 This distinction is essential for storytelling with data.
 
-## 1. Exploratory vs Explanatory Visualization
+### 1. Exploratory vs Explanatory Visualization
 - **Exploratory**: visuals created for the analyst to understand patterns, test hypotheses, or search for anomalies. They are often messy, iterative, and abundant.  
 - **Explanatory**: visuals crafted with a clear audience and purpose, focusing only on the key insights—the *pearls*, not the *oysters*.  
 
 Students should be encouraged to recognize when they are exploring and when they are explaining.
 
-## 2. Teaching R vs Python
+### 2. Teaching R vs Python
 - **R**: The declarative style of `ggplot2` helps beginners focus on *what story the data tells* without being distracted by implementation details. It is ideal for teaching *clarity, structure, and coherence*.  
 - **Python**: The imperative approach (matplotlib, seaborn) trains students to think step by step and offers opportunities to connect visualization with machine learning and applications. It is ideal for teaching *integration and flexibility*.  
 
 Both languages offer valuable lessons when taught side by side.
 
-## 3. Pedagogical Tips
+### 3. Pedagogical Tips
 - **Start with narrative questions**: “What do you want your audience to know or do?” before writing code.  
 - **Show the same plot in both languages**: highlight how different philosophies lead to the same message.  
 - **Use progressive annotation**: begin with a raw scatterplot, then gradually add titles, labels, and highlights to show the evolution from data to story.  
@@ -277,7 +279,7 @@ The key teaching point: **data visualization is not the end of analysis—it is 
 
 ---
 
-# Closing Thoughts
+## Closing Thoughts
 
 Data storytelling is not about choosing the “best” tool—it is about choosing the right tool for the right context.  
 R and Python both provide powerful pathways to transform data into compelling stories, but they embody different philosophies:
